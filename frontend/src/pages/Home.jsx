@@ -7,14 +7,15 @@ import Resu2 from "../assets/resu2.jpg";
 import Resu3 from "../assets/resu3.jpg";
 import Resu4 from "../assets/resu4.jpg";
 import ResuT from "../assets/resuT.jpg";
-import Resucv from "../assets/resucv.jpg";
-import Resuco from "../assets/resuco.jpg";
+import Resucv from "../assets/Resucv.jpg";
+import Resuco from "../assets/Resuco.jpg";
 import logo1 from "../assets/logo1.png";
 import logo2 from "../assets/logo2.svg";
 import logo3 from "../assets/logo3.png";
 import logo4 from "../assets/logo4.png";
 import logo5 from "../assets/logo5.png";
 import logo7 from "../assets/logo7.png";
+
 
 
 

@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.logo-slider {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+          }
+          .logo-track {
+            display: flex;
+            animation: scroll 25s linear infinite;
+          }
+          .logo-item {
+            flex: 0 0 auto;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .logo-item img {
+            width: 120px;
+            height: 50px;
+            object-fit: contain;
+          }
+          .logo-slider:hover .logo-track {
+            animation-play-state: paused;
+          }
+          @keyframes scroll {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translateX(-50%);
+            }
+          }
+      
+          /* 📱 Faster animation on small screens */
+          @media (max-width: 768px) {
+            .logo-track {
+              animation-duration: 15s;
+            }
+          }
+          @media (max-width: 480px) {
+            .logo-track {
+              animation-duration: 12s;
+            }
+          }
+
+          
+body {
+  overflow-x: hidden; /* Ensures full page navigation */
+}
+
+/* Agar modal/popup dikh raha hai to */
+.ant-modal, .modal-overlay {
+  display: none !important; /* Force disable */
+}
+

@@ -7,8 +7,8 @@ import Resu2 from "../assets/resu2.jpg";
 import Resu3 from "../assets/resu3.jpg";
 import Resu4 from "../assets/resu4.jpg";
 import ResuT from "../assets/resuT.jpg";
-// import Resucv from "../assets/Resucv.jpg";
-// import Resuco from "../assets/Resuco.jpg";
+import Resucv from "../assets/Resucv.jpg";
+import Resuco from "../assets/Resuco.jpg";
 import logo1 from "../assets/logo1.png";
 import logo2 from "../assets/logo2.svg";
 import logo3 from "../assets/logo3.png";
@@ -52,8 +52,8 @@ const Home = () => {
   <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
     {[
       { id: 1, title: "Resume Templates", link: "/resume-template", img: ResuT },
-      { id: 2, title: "CV Templates", link: "/cv-template", img: Resucv },
-      { id: 3, title: "Cover Letter Templates", link: "/cover-letter-template", img: Resuco },
+      { id: 2, title: "CV Templates", link: "/cv-template", img: Resuco },
+      { id: 3, title: "Cover Letter Templates", link: "/cover-letter-template", img: Resucv },
     ].map((t) => (
       <div
         key={t.id}

@@ -1,14 +1,14 @@
 // src/pages/Home.jsx
 import React from "react";
 import faqImg from "../assets/faq.jpg";
-import MasterclassImg from "../assets/Masterclass.jpg"; // apni image ka actual path lagao
+import MasterclassImg from "../assets/Masterclass.jpg";
 import Resu1 from "../assets/resu1.jpg"; 
 import Resu2 from "../assets/resu2.jpg";
 import Resu3 from "../assets/resu3.jpg";
 import Resu4 from "../assets/resu4.jpg";
 import ResuT from "../assets/resuT.jpg";
-import Resucv from "../assets/Resucv.jpg";
-import Resuco from "../assets/Resuco.jpg";
+// import Resucv from "../assets/Resucv.jpg";
+// import Resuco from "../assets/Resuco.jpg";
 import logo1 from "../assets/logo1.png";
 import logo2 from "../assets/logo2.svg";
 import logo3 from "../assets/logo3.png";
